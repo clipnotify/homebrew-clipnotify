@@ -32,7 +32,7 @@ fi
 echo "Fetching latest release from GitLab..."
 LATEST_RELEASE=$(curl -sf \
   --header "PRIVATE-TOKEN: ${GITLAB_TOKEN}" \
-  "${GITLAB_API}/projects/${GITLAB_PROJECT}/releases" \
+  "${GITLAB_API}/projects/${GITLAB_PROJECT}/releases?order_by=released_at&sort=desc&per_page=1" \
   | jq -r '.[0].tag_name')
 
 if [[ -z "$LATEST_RELEASE" || "$LATEST_RELEASE" == "null" ]]; then

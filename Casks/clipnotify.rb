@@ -1,6 +1,6 @@
 cask "clipnotify" do
-  version "26.06"
-  sha256 "bae6b0f1fa690b31937a4b4d1c78bfbe2e59bad981341ced0b90178f960eb231"
+  version "26.02"
+  sha256 "93e826b96c03be9d9f9e37bca2db8c168ea708480d0e2340323e9d9527fce38a"
 
   url "https://gitlab.com/clipnotify/clipnotify/-/releases/v#{version}/downloads/ClipNotify-native-v#{version}.dmg"
   name "ClipNotify"

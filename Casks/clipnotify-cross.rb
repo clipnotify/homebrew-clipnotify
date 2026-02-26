@@ -1,6 +1,6 @@
 cask "clipnotify-cross" do
-  version "26.06"
-  sha256 "845635198664765fdcdd1ebd93dd37fa636e4d5228f6c3847b34231cdbc5e691"
+  version "26.02"
+  sha256 "c498cef94c8678f549859415600f139e0ae2714b6f56620004e88e980f6a7a6b"
 
   url "https://gitlab.com/clipnotify/clipnotify/-/releases/v#{version}/downloads/ClipNotify-v#{version}.dmg"
   name "ClipNotify (Cross-platform)"
